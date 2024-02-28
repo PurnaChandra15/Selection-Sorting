@@ -4,10 +4,13 @@ Date: 2/28/2024
 Comments: This C# Console Application code demonstrates the
     Selection Sort. No input is required for the script. 
     It will execute without input against two pre-populated arrays. 
+
+Edited by : Shyam Rishi
+ This is a selection sorting algorithm
 */
 
 
-int[] selection_sort_numbers = { 3, 62, 5, 16, 4, 10 };
+int[] selection_sort_numbers = { 3, 62, 5, 16, 4, 9999 };
 
 Console.WriteLine("Here is the original array that will be used to execute the Selection Sort Algorithm: ");
 for (int i = 0; i < selection_sort_numbers.Length; i++)
